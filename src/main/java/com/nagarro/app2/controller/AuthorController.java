@@ -23,6 +23,7 @@ public class AuthorController {
 	@Autowired
 	private AuthorService authorService;
 
+	//get all Authors
 	@GetMapping("/authors")
 	public List<Author> getAllAuthor() {
 		return authorService.getAllAuthors();
