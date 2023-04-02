@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.nagarro.app2.model.Author;
 import com.nagarro.app2.service.AuthorService;
 
+//This is a rest contolerr
 @RestController
 public class AuthorController {
 
